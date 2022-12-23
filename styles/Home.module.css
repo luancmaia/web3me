@@ -1,0 +1,36 @@
+.container {
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.examples {
+  margin-left: 50px;
+}
+
+.buttonContainer {
+  margin-top: 40px;
+}
+
+.buttonPink {
+  padding: 15px 40px;
+  font-size: 20px;
+  background: linear-gradient(142.41deg, #E025CE -12.51%, #E40FAC 136.14%);
+  border: 2px solid #4AED52;
+  border-radius: 6px;
+  margin-right: 30px;
+}
+
+.buttonGreen {
+  padding: 10px 30px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background: transparent;
+  border: 2px solid #4AED52;
+  border-radius: 6px;
+  text-transform: uppercase;
+}

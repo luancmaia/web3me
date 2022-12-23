@@ -1,0 +1,155 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+main div:first-child {
+  margin-right: 30px;
+}
+
+main h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 25px;
+  margin: 0;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 10px 0;
+  line-height: 30px;
+}
+
+main h2 strong {
+  background: linear-gradient(124.65deg, #E025CE 22.81%, #4AED52 98.66%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: #00031A;
+  }
+}
+
+.howSection {
+  margin-top: 100px;
+}
+
+.howSection h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.howList {
+  display: flex;
+  text-align: center;
+}
+
+.howList div {
+  margin: 20px;
+  line-height: 25px;
+}
+
+.latestUploads {
+  margin-top: 100px;
+}
+
+.latestUploads h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.latestUploads img {
+  max-width: 200px;
+  margin-right: 10px;
+  border: 3px solid green;
+  border-radius: 8px;
+}
+
+.latestUploads p {
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.faqSection {
+  margin-top: 100px;
+}
+
+.faqSection h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.faq-row-wrapper {
+  background: green;
+}
+
+.row-content {
+}
+
+.row-content .row-content-text {
+  padding: 30px !important;
+}
+
+.row-title {
+  padding: 10px 30px !important;
+}
+
+.uploadTitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.header a:first-child {
+  text-align: left;
+  flex: 1;
+}
+
+.header a:last-child {
+  text-align: left;
+}
