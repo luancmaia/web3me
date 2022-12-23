@@ -61,7 +61,7 @@ export default function Home() {
             <ul>
               {
                 [1,2,3,4,5].map((item) => (
-                  <img src={`/generations/${item}.png`}/>
+                  <li><img src={`/generations/${item}.png`}/></li>
                 ))
               }
             </ul>
