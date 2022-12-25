@@ -20,7 +20,7 @@ const data = {
       },
       {
         title: "Total Supply? Price? What about Rarity?",
-        content: "Our NFT collection is limited to 10,000 one-of-a-kind anime artworks, each of which has been carefully crafted using AI priced at 0.05 eth/each. But we don't stop there. After generating all of these artworks, we'll embark on a massive effort to give each NFT its own traits manually. This extra step helps to ensure that each NFT in our collection is truly special and adds even more value for collectors."
+        content: "Our NFT collection is limited to 10,000 one-of-a-kind anime artworks, each of which has been carefully crafted using AI priced at 0.02 eth/each. But we don't stop there. After generating all of these artworks, we'll embark on a massive effort to give each NFT its own traits manually. This extra step helps to ensure that each NFT in our collection is truly special and adds even more value for collectors."
       }
   ],
 };
